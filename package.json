@@ -1,0 +1,28 @@
+{
+  "name": "typescript-bot",
+  "version": "1.0.0",
+  "description": "Dou suporte 20/5, pelo meu discord ou x! `Discord`  ->  sichvs `X`  ->  cSqr8 Observação: não dou suporte para criação de comandos, apenas para erros na index, etc. # Créditos Feito por sichvs (cSqr8), 17/04/25, `Este repositório é gratuito, não necessita Ib na própria aplicação, porem necessito se for divulga-lo!`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cSqr8/Typescript-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cSqr8/Typescript-Bot/issues"
+  },
+  "homepage": "https://github.com/cSqr8/Typescript-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
