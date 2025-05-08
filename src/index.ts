@@ -43,4 +43,4 @@ client.on("messageCreate", (message: Message) => {
   }
 });
 
-client.login("MTM2OTgzODYxNzk2MjIxNzU3Mg.GladAj.Ol-9Uw3TVCc3-VSqk_m9K9TItSYfcwH4wmP2uM");
+client.login(${{ secret(10) }});
