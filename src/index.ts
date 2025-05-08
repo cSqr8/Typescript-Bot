@@ -27,7 +27,7 @@ client.once("ready", () => {
 
 client.on("messageCreate", (message: Message) => {
   // Troque ! pelo seu prefixo!
-  if (!message.content.startsWith("!")) return;
+  if (!message.content.startsWith("k:")) return;
 
   const args = message.content.slice(1).split(/ +/);
   const commandName = args.shift()?.toLowerCase();
@@ -43,4 +43,4 @@ client.on("messageCreate", (message: Message) => {
   }
 });
 
-client.login("TOKEN_BOT");
+client.login("MTM2OTgzODYxNzk2MjIxNzU3Mg.GladAj.Ol-9Uw3TVCc3-VSqk_m9K9TItSYfcwH4wmP2uM");
